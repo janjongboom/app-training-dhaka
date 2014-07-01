@@ -1,0 +1,1 @@
+setTimeout(function() {  console.log('timeout');  var someElement = document.querySelector('#some');  someElement.innerHTML = '<script>alert("yolo")</script>';  var a = document.createElement('script');  a.src = 'some-file.js';  document.body.appendChild(a);  eval('3 + 7');  setTimeout('alert("here we go!")');  new Function('var a = 7; return a * 2;');}, 5000);
