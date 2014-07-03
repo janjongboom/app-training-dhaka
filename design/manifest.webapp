@@ -1,0 +1,17 @@
+{
+  "name": "Design",
+  "type": "privileged",
+  "description": "Yolo",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": ""
+  },
+  "developer": {
+    "name": "Pietje",
+    "url": "http://pietje.com"
+  },
+  "default_locale": "en",
+  "permissions": {
+    "systemXHR": {}
+  }
+}

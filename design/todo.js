@@ -28,12 +28,20 @@ window.addEventListener('DOMContentLoaded', function() {
   // <script>alert(1)</script>
   // <font color="white"></font>
 
-  document.querySelector('ul').onclick = function(e) {
-    document.body.classList.remove('list')
-    document.body.classList.add('detail')
-    
-    document.querySelector('#detail h1')
-      .textContent = e.target.textContent;
-  };
+  document.querySelector('ul').addEventListener(
+    'tap', function(e) {
+      document.body.classList.remove('list')
+      document.body.classList.add('detail')
+
+      document.querySelector('#detail h1')
+        .textContent = e.target.textContent;
+  });
+
+  var gd = new GestureDetector(document.querySelector('ul'))
+  gd.startDetecting();
+
+  document.querySelector('ul').addEventListener('swipe', function() {
+    alert('SWIPE!!!!!');
+  })
 
 })

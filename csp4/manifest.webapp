@@ -1,0 +1,15 @@
+{
+  "name": "CSP",
+  "developer": {
+    "name": "Jan Jongboom",
+    "url": "http://janjongboom.com"
+  },
+  "description": "Lets test CSP here yo",
+  "launch_path": "/index.html",
+  "activities": {
+    "share": {
+      "href": "/index.html",
+      "disposition": "inline"
+    }
+  }
+}

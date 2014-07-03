@@ -1,0 +1,12 @@
+{
+  "name": "Hello vibrate",
+  "developer": {
+    "name": "Jan Jongboom",
+    "url": "http://janjongboom.com"
+  },
+  "description": "IT VIBRATES OMG",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/path-to-icon.png"
+  }
+}

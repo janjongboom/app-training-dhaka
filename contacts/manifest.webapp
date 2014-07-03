@@ -1,0 +1,16 @@
+{
+  "name": "Contact viewing",
+  "type": "privileged",
+  "developer": {
+    "name": "Jan Jongboom",
+    "url": "http://janjongboom.com"
+  },
+  "description": "Contacts whooo",
+  "launch_path": "/index.html",
+  "permissions": {
+    "contacts": {
+      "access": "readonly",
+      "description": "Need it for demo"
+    }
+  }
+}
