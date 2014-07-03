@@ -1,0 +1,9 @@
+{
+  "name": "Nice Stuff",
+  "developer": {
+    "name": "Jan Jongboom",
+    "url": "http://janjongboom.com"
+  },
+  "description": "Lets test CSP here yo",
+  "launch_path": "/index.html"
+}

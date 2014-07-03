@@ -1,0 +1,31 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font: 10px sans-serif;
+	background: white;
+	overflow-x: hidden;
+}
+section.view {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	visibility: visible;
+	transition: transform 0.4s ease;
+}
+
+body.list section.view#detail {
+	transform: translateX(100%);
+}
+
+body.detail section.view#detail {
+	transform: translateX(0);
+}
+
+body.detail section.view#list {
+	transform: translateX(-100%);
+}
+
+#scrolling-list {
+	height: calc(100vh - 5rem);
+	overflow: scroll;
+}
